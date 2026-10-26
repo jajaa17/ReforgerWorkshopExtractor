@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Reforger Workshop Extractor",
+  "version": "1.0.0",
+  "description": "Copy an Arma Reforger workshop mod's ID and name as a ready-to-paste JSON entry with one click or Alt+Shift+C.",
+  "permissions": ["clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": ["https://reforger.armaplatform.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "reforger-workshop-extractor@jajaa17"
+    }
+  }
+}
