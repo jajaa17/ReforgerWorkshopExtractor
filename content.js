@@ -10,7 +10,7 @@
 
   // Output format, matches the entries in a server config's mods array.
   const format = ({ id, name }) =>
-    `{\n        "modId": "${id}",\n        "name": ${JSON.stringify(name)}\n      },`;
+    `      {\n        "modId": "${id}",\n        "name": ${JSON.stringify(name)}\n      },`;
 
   function getMod() {
     const m = MOD_PATH.exec(location.pathname);
