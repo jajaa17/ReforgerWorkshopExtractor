@@ -5,10 +5,10 @@ A tiny Chrome/Firefox extension for the [Arma Reforger Workshop](https://reforge
 Example output for [Fishing](https://reforger.armaplatform.com/workshop/6A6874E0907A01A6-Fishing):
 
 ```
-      {
-        "modId": "6A6874E0907A01A6",
-        "name": "Fishing"
-      },
+{
+  "modId": "6A6874E0907A01A6",
+  "name": "Fishing"
+},
 ```
 
 ## Usage
